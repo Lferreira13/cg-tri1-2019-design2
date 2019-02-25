@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SimpleMove : MonoBehaviour
 {
+    [SerializeField]
+    private float SpeedFactor = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,8 @@ public class SimpleMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3 (transform.position.x + 0.1f, transform.position.y, transform.position.z);
+        float So = transform.position.x;
+        float S = So + SpeedFactor * Time.deltaTime; 
+        transform.position = new Vector3 (S + 0.1f, transform.position.y, transform.position.z);
     }
 }
