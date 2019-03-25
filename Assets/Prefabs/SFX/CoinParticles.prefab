@@ -4649,6 +4649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d7b4384f17bfd42b87fba09c582db0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 3
 --- !u!199 &5633702702882489171
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -4685,8 +4686,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -724941219
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
