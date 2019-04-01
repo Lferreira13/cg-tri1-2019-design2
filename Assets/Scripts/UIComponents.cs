@@ -5,8 +5,7 @@ using System;
 using UnityEngine.UI;
 
 [Serializable]
-public class UIComponents 
-{
+public class UIComponents {
     [Serializable]
     public class Hud {
 
@@ -20,4 +19,5 @@ public class UIComponents
     }
 
     public Hud hud;
+
 }
