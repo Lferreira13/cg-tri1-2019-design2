@@ -24,15 +24,12 @@ public class SceneManager : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-        
-    }
 
     
     void Update()
     {
         Tape.position = Tape.position + TapeSpeed * Time.deltaTime;
+        DisplayHudData();
     }
 
     public void IncrementCoinCount() {
