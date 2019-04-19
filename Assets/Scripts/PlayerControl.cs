@@ -16,6 +16,7 @@ public class PlayerControl : MonoBehaviour
             AudioManager.instance.PlaySoundLevelComplete(gameObject);
             StopMusicAndTape();
             Destroy(gameObject);
+            LevelManager.instance.ShowLevelCompletePanel();
         } 
         else if (other.gameObject.layer == LayerMask.NameToLayer("Enemies")) {
             KillPlayer();

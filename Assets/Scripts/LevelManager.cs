@@ -44,4 +44,9 @@ public class LevelManager : MonoBehaviour
         TapeSpeed = new Vector3(value, TapeSpeed.y, TapeSpeed.z);
 
     }
+
+    public void ShowLevelCompletePanel() {
+        uiComponents.levelCompletePanel.LCPanel.SetActive(true);
+        uiComponents.levelCompletePanel.txtScore.text = "" + sceneData.coinCount;
+    }
 }
