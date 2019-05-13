@@ -845,7 +845,6 @@ GameObject:
   - component: {fileID: 484537707}
   - component: {fileID: 484537713}
   - component: {fileID: 484537712}
-  - component: {fileID: 484537711}
   - component: {fileID: 484537710}
   - component: {fileID: 484537714}
   m_Layer: 8
@@ -948,19 +947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10cae54afc8b0e44b9c306ea7cc0f7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &484537711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484537706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6afe1db9383adf84e9f66f78510df407, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpeedFactor: 10
 --- !u!70 &484537712
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1010,8 +996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e498c5eb53814a84c8174db28a397f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particles: {fileID: 8870239798344590266, guid: e013ed66122a4bf4ca416343ce1d0dc3,
-    type: 3}
+  lerpRate: 4
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
